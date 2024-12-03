@@ -6,3 +6,6 @@ edition = "2024"
 [dependencies]
 fantoccini = { version = "0.21.2", features = ["rustls-tls"] }
 tokio = { version = "1.42.0", features = ["full"] }
+
+[dev-dependencies]
+cross = "0.2"
